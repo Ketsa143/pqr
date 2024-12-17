@@ -169,7 +169,7 @@ function ensureLoggedIn(expectedRole) {
 
     if (expectedRole && loggedUser.role !== expectedRole) {
         alert("No tienes acceso a esta página.");
-        window.location.href = `../roles/${loggedUser.role}.html`; // Redirige al panel del usuario correcto
+        window.location.href = `/pqr/roles/${loggedUser.role}.html`; // Redirige al panel del usuario correcto
     }
 }
 
