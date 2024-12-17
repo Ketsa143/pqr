@@ -1,0 +1,60 @@
+/* Estilos globales */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color:#f8f9fa; /* Fondo oscuro */
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; /* Ajusta según sea necesario */
+    text-align: center;
+  }
+  
+  .logo {
+    width: 200px; /* Ajusta según el tamaño de tu logo */
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color:  #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .boton {
+    background-color: #3498db; /* Color azul para los botones */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px; /* Ancho fijo para los botones */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #2980b9; /* Cambio de color al pasar el mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
