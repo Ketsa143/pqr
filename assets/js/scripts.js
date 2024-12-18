@@ -147,7 +147,7 @@ function resolveTicket(id, role) {
 // Función para ver detalles de un ticket
 function viewTicket(ticketId) {
     localStorage.setItem('viewTicketId', ticketId); // Guarda el ID del ticket
-    window.location.href = "../details.html"; // Cambia la redirección al nivel correcto
+    window.location.href = "/pqr/details.html"; // Cambia la redirección al nivel correcto
 }
 
 
