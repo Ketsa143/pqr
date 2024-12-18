@@ -23,7 +23,7 @@ function saveToHistory(ticket) {
 // Cerrar sesión
 function logout() {
     localStorage.removeItem('loggedUser');
-    window.location.href = "../login.html";
+    window.location.href = "/pqr/login.html";
 }
 
 // Función para cargar tickets según rol
