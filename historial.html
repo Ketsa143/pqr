@@ -104,7 +104,7 @@
         function goBackToPanel() {
             const loggedUser = JSON.parse(localStorage.getItem('loggedUser'));
             if (loggedUser) {
-                window.location.href = `/roles/${loggedUser.role}.html`;
+                window.location.href = `/pqr/roles/${loggedUser.role}.html`;
             } else {
                 alert("No se pudo determinar el usuario. Por favor, inicia sesión.");
                 window.location.href = "/pqr/login.html";
