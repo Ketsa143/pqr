@@ -25,13 +25,10 @@
         </form>
     </div>
 
-    <script>
-        // Definir usuarios de prueba
-        const users = [
-            { username: "asistente", password: "12345", role: "asistente", redirect: "roles/asistente.html" },
-            { username: "admin", password: "admin123", role: "administrador", redirect: "roles/administrador.html" },
-            { username: "contador", password: "conta2024", role: "contador", redirect: "roles/contador.html" },
-        ];
+    <script type="module" src="assets/js/users.js"></script>
+    <script type="module">
+        import { users } from './assets/js/users.js';
+
 
         // Manejar el login
         document.getElementById('loginForm').addEventListener('submit', function (e) {
